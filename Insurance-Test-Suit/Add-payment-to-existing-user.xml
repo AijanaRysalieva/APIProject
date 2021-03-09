@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="4c2d8f75-cf9d-47eb-9c04-8d1974c0d964" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="Add payment to existing user" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="4c2d8f75-cf9d-47eb-9c04-8d1974c0d964fileName">Add-payment-to-existing-user</con:setting></con:settings><con:properties/><con:reportParameters/></con:testCase>

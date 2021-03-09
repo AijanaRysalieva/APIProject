@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="260deed7-75da-457d-a9a5-5316fd8bc338" failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="CreateUser Test case" searchProperties="true" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="260deed7-75da-457d-a9a5-5316fd8bc338fileName">CreateUser-Test-case</con:setting></con:settings><con:testStep type="restrequest" name="REST Request1" id="4a498cbb-9609-47af-8f06-23c24d4363b4"><con:settings/><con:config service="https://www.test-insurance.com" methodName="CreateUserRequest" resourcePath="/api/v1/user" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request1" id="af385520-6266-4413-a271-6ff1b11b6db0" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://www.test-insurance.com</con:endpoint><con:request>{
+  "primaryPerson": {
+    "email": "tem@gmail.com",
+    "title": "Mrs",
+    "firstName": "Aijana",
+    "lastName": "Rysalieva",
+    "gender": "female",
+    "maritalStatus": "Single",
+    "employmentStatus": "unemployed",
+    "dateOfBirth": "2000-01-01",
+    "languagePref": "en"
+  },
+  "primaryPersonMailingAddress": {
+    "addressType": "3029 Brighton",
+    "addressLine1": "df",
+    "city": "Brooklyn",
+    "state": "NY",
+    "postalCode": "11235",
+    "countryCode": "+001"
+  },
+  "primaryPersonPhone": {
+    "phoneNumber": "1236547895",
+    "phoneExtension": "1",
+    "phoneTime": "day",
+    "phoneType": "mobile"
+  }
+}</con:request><con:originalUri>https://www.test-insurance.com/api/v1/user</con:originalUri><con:credentials><con:selectedAuthProfile>Berear</con:selectedAuthProfile><con:authType>OAuth 2.0</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase>
